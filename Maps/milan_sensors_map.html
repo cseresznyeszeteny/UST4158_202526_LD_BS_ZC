@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fce35744ab2c4621d0c22b117ee3d3ac {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fce35744ab2c4621d0c22b117ee3d3ac" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fce35744ab2c4621d0c22b117ee3d3ac = L.map(
+                "map_fce35744ab2c4621d0c22b117ee3d3ac",
+                {
+                    center: [45.4642, 9.19],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 11,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_84870c0fadbcfdbb30615cd26e361502 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_84870c0fadbcfdbb30615cd26e361502.addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            var circle_marker_b1c4009614c353350ed6768329baf701 = L.circleMarker(
+                [45.52764, 9.031168],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            circle_marker_b1c4009614c353350ed6768329baf701.bindTooltip(
+                `<div>
+                     <b>RHO san Paolo</b><br>ID: 264579<br>Lat: 45.52764<br>Lng: 9.031168
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c28ffe01cd93ecd60e89ada18b128246 = L.circleMarker(
+                [45.475697, 9.172453],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            circle_marker_c28ffe01cd93ecd60e89ada18b128246.bindTooltip(
+                `<div>
+                     <b>Piazza Sempione</b><br>ID: 16540<br>Lat: 45.475697<br>Lng: 9.172453
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d8ace536fd62567fe6884daae6809a9a = L.circleMarker(
+                [45.40513, 9.035581],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            circle_marker_d8ace536fd62567fe6884daae6809a9a.bindTooltip(
+                `<div>
+                     <b>Gaggiano MI (CENTRO)</b><br>ID: 231569<br>Lat: 45.40513<br>Lng: 9.035581
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8ae5badcd8e7952e13a2d54dd42583a8 = L.circleMarker(
+                [45.5132, 9.211517],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            circle_marker_8ae5badcd8e7952e13a2d54dd42583a8.bindTooltip(
+                `<div>
+                     <b>U1 - Atmospheric Chemistry - AE9B</b><br>ID: 188043<br>Lat: 45.5132<br>Lng: 9.211517
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_e75a9fd252a47fb62b5b558fd4089e70 = L.circleMarker(
+                [45.5139, 9.211895],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            circle_marker_e75a9fd252a47fb62b5b558fd4089e70.bindTooltip(
+                `<div>
+                     <b>U3 - Atmospheric Chemistry - B6CC</b><br>ID: 188041<br>Lat: 45.5139<br>Lng: 9.211895
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c27cf436fa777093be87eac92bf1a0f0 = L.circleMarker(
+                [45.51409, 9.211131],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            circle_marker_c27cf436fa777093be87eac92bf1a0f0.bindTooltip(
+                `<div>
+                     <b>U4 - Atmospheric Chemistry - B377</b><br>ID: 188049<br>Lat: 45.51409<br>Lng: 9.211131
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_c0ae9f3087a6c94130be48d8057a69c6 = L.circleMarker(
+                [45.501736, 9.200316],
+                {"bubblingMouseEvents": true, "color": "#e63946", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e63946", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fce35744ab2c4621d0c22b117ee3d3ac);
+        
+    
+            circle_marker_c0ae9f3087a6c94130be48d8057a69c6.bindTooltip(
+                `<div>
+                     <b>Milano Arbe</b><br>ID: 256425<br>Lat: 45.501736<br>Lng: 9.200316
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
