@@ -1,6 +1,8 @@
-# Air Quality Analysis — Milan & Turin
+# Air Quality Analysis for Public Policy in Milan & Turin
 **UGST4158 — Introduction to Public Policy 2025/26 Winter**
-Central European University — Liza Drini · Benedek Szalma · Zeteny Cseresznyes
+Central European University 
+
+Liza Drini · Benedek Szalma · Zeteny Cseresznyes
 
 Time series analysis and policy evaluation of PM2.5 and PM10 air quality in Milan and Turin, using PurpleAir sensor data from 2022–2025. Includes SARIMAX forecasting and a difference-in-differences regression evaluating Milan's January 2025 smoking ban.
 
