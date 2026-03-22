@@ -9,25 +9,36 @@ Time series analysis and policy evaluation of PM2.5 and PM10 air quality in Mila
 ## Structure
 
 ```
-├── API/          data collection notebooks (PurpleAir API pull, 2022–2025)
-├── Data/         raw CSVs — milan_air_quality.csv, turin_air_quality.csv
-├── Analysis/     city-level EDA, outlier treatment, SARIMAX forecasting
-├── Regression/   DID regression, event study, results plot
-└── Figures/      all output plots and sensor maps
+├── Data Analysis/
+│   ├── API/          data collection notebooks (PurpleAir API pull, 2022–2025)
+│   ├── Data/         raw CSVs — milan_air_quality.csv, turin_air_quality.csv
+│   ├── Analysis/     city-level EDA, outlier treatment, SARIMAX forecasting
+│   ├── Regression/   DID regression, event study, results plot
+│   ├── Figures/      all output plots and sensor maps
+│   └── Maps/         folium sensor location maps
+├── Reports/
+│   ├── abstract.md
+│   ├── data_analysis_report.md   (time series methods, DID design, limitations)
+│   ├── report.md                 (full policy report — review, findings, advice)
+│   └── policy_frame_report.md   (detailed frame analysis — actors, institutions)
+└── Sources/
+    ├── bibliography.md
+    ├── milan-policy-english.md
+    └── milan-policy-italian.md
 ```
 
 ## How to Run
 
-1. **API/** — run `pp_api_req_milan.ipynb` and `pp_api_req_turin.ipynb` to fetch/refresh data
-2. **Analysis/** — run `pp_analysis_milan.ipynb` and `pp_analysis_turin.ipynb` for EDA and forecasting
-3. **Regression/** — run `pp_regression.ipynb` for the DID analysis
+1. **Data Analysis/API/** — run `pp_api_req_milan.ipynb` and `pp_api_req_turin.ipynb` to fetch/refresh data
+2. **Data Analysis/Analysis/** — run `pp_analysis_milan.ipynb` and `pp_analysis_turin.ipynb` for EDA and forecasting
+3. **Data Analysis/Regression/** — run `pp_regression.ipynb` for the DID analysis
 
-Each notebook saves its figures automatically to `Figures/`.
+Each notebook saves its figures automatically to `Data Analysis/Figures/`.
 
 ## Requirements
 
 `pandas`, `numpy`, `matplotlib`, `statsmodels`, `scipy`, `requests`, `folium`
 
-## Report
+## Reports
 
-See `report.md` for a full description of the research question, data, methods, and limitations.
+See `Reports/` for the project abstract and full data analysis report.

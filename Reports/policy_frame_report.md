@@ -1,0 +1,16 @@
+# Milan's Outdoor Smoking Ban: Policy Frame Analysis
+**UGST4158 — Introduction to Public Policy 2025/26 Winter**
+Central European University — Quantitative Methods Seminar
+Liza Drini · Benedek Szalma · Zeteny Cseresznyes
+
+## Problem Definition
+
+Milan's outdoor smoking ban addresses the public health and environmental harm caused by cigarette smoke in shared urban spaces, though the policy itself is better understood as a symptomatic response rather than a solution to root causes — namely the tobacco industry, nicotine addiction, and deeply entrenched social norms around smoking in Italy. The ban is framed primarily through an environmental and public security lens, targeting air quality degradation, with a secondary moral dimension centred on protecting vulnerable groups such as children and pregnant women from passive smoke exposure. These two frames are largely compatible, though the environmental rationale (reducing particulate emissions) dominates the official justification, while the moral frame remains implicit.
+
+## Actors and Interests
+
+The key stakeholders are the Milan municipal government, tobacco producers and retailers, individual smokers, and environmental advocacy groups. The clearest winners are environmental interests and non-smokers who benefit from cleaner air, while Big Tobacco and cigarette retailers stand to lose from reduced consumption. Veto players in the broader Italian institutional context include the President, who holds a suspensive veto over parliament, and parliament itself, though the ban was enacted at the municipal level. The principal policy entrepreneur is Milan's mayor, Giuseppe Sala, who championed the measure as part of the city's Air and Climate Plan. Interest intermediation follows a pluralist pattern, with environmental and public health groups pushing against the diffuse but less organised interests of smokers and the tobacco industry.
+
+## Institutions and Decision Mode
+
+The most relevant institutions are the Milan municipal executive and city council, which drove and passed the regulation with limited involvement from national legislative bodies. Decision-making was deliberative in character, involving negotiation between the mayor, the municipal government, and input from the public and stakeholder groups. State capacity at the local level is moderate — sufficient to legislate but constrained in enforcement, as early implementation saw very few fines issued. The policy instrument is designed to produce change through deterrence: fines are intended to make smoking in public spaces costlier than compliance, thereby reducing the number of cigarettes lit outdoors and, in turn, lowering fine particulate matter in the city's air. The target population is active smokers in public spaces, and the assumed behavioural mechanism is that the threat of a fine outweighs the desire to smoke. Unintended consequences appear limited — the most likely outcome of weak enforcement is that behaviour does not meaningfully change rather than that the policy backfires.

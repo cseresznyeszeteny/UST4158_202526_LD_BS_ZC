@@ -89,3 +89,17 @@ Euronews. "Milan Cracks Down on Outdoor Smoking in Toughest Ban to Date." *Euron
 > Targeted at expatriates and visitors, this article provides a practical overview of Milan's outdoor smoking ban, explaining where the rules apply, what exceptions exist, what fines smokers risk, and how the ordinance fits into the city's wider Air and Climate Plan adopted in 2020.
 
 ---
+
+## Sensors and Air Quality Monitoring
+
+Marchetti, Sara. "RESPIRO: Real-Time Environmental Sensing for Personal Intelligent Risk Optimization." *POLARIS Interdepartmental Research Centre, University of Milan-Bicocca*, May 19, 2025. https://polaris.unimib.it/en/2025/05/19/respiro-en/
+
+> RESPIRO is a portable, wearable air quality monitoring device developed by the University of Milan-Bicocca, ROAD, and XEarPro Srl. It detects PM10, PM2.5, PM1, CO₂, and CO while logging temperature, humidity, and pressure. Data are georeferenced and transmitted in real time to a central server. Pilot campaigns in Milan's Bicocca and Rome's Ostiense districts engaged citizen volunteers to map spatial and temporal pollution variations, supporting participatory science and informed public health decision-making on urban air quality.
+
+---
+
+University of Milan-Bicocca. "RESPIRO: Air Quality Monitoring Becomes Wearable, Real-Time and Accessible to Everyone." *University of Milan-Bicocca Press Release*, 2025. https://en.unimib.it/pressrelease/respiro-air-quality-monitoring-becomes-wearable-real-time-and-accessible-everyone
+
+> Press release from the University of Milan-Bicocca presenting the RESPIRO project, a citizen-science initiative producing wearable low-cost sensors for real-time, georeferenced air quality monitoring at the neighbourhood level.
+
+---

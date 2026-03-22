@@ -1,10 +1,7 @@
-# UGST4158 — Introduction to Public Policy
-## 2025/26 Winter — Policy Analysis Project Abstract
-**Seminar:** Quantitative
-
-**Members:** Benedek Szalma, Zeteny Cseresznyes, Liza Drini
-
-**Topic:** Banned Outdoor Smoking in Milan
+# Smoking Ban in Milan: Abstract
+**UGST4158 — Introduction to Public Policy 2025/26 Winter**
+Central European University — Quantitative Methods Seminar
+Liza Drini · Benedek Szalma · Zeteny Cseresznyes
 
 ---
 
