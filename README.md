@@ -20,7 +20,8 @@ Time series analysis and policy evaluation of PM2.5 and PM10 air quality in Mila
 │   ├── abstract.md
 │   ├── data_analysis_report.md   (time series methods, DID design, limitations)
 │   ├── report.md                 (full policy report — review, findings, advice)
-│   └── policy_frame_report.md   (detailed frame analysis — actors, institutions)
+│   ├── policy_frame_report.md   (detailed frame analysis — actors, institutions)
+│   └── presentation_outline.md  (slide-by-slide presentation outline)
 └── Sources/
     ├── bibliography.md
     ├── milan-policy-english.md
