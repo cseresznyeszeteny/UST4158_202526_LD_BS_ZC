@@ -10,11 +10,11 @@ Time series analysis and policy evaluation of PM2.5 and PM10 air quality in Mila
 
 ```
 ├── Data Analysis/
-│   ├── API/          data collection notebooks (PurpleAir API pull, 2022–2025)
-│   ├── Data/         raw CSVs — milan_air_quality.csv, turin_air_quality.csv
+│   ├── API/          data collection notebooks (PurpleAir API, 2022–2025)
+│   ├── Data/         raw data — milan_air_quality.csv, turin_air_quality.csv
 │   ├── Analysis/     city-level EDA, outlier treatment, SARIMAX forecasting
 │   ├── Regression/   DID regression, event study, results plot
-│   ├── Figures/      all output plots and sensor maps
+│   ├── Figures/      all output plots
 │   └── Maps/         folium sensor location maps
 ├── Reports/
 │   ├── abstract.md
@@ -22,10 +22,13 @@ Time series analysis and policy evaluation of PM2.5 and PM10 air quality in Mila
 │   ├── report.md                 (full policy report — review, findings, advice)
 │   ├── policy_frame_report.md   (detailed frame analysis — actors, institutions)
 │   └── presentation_outline.md  (slide-by-slide presentation outline)
+│   ├── data_analysis_report.md       (time series methods, DID design, limitations)
+│   ├── report.md                     (full policy report — review, findings, advice)
+│   └── policy_frame_report.md        (detailed frame analysis — actors, institutions)
 └── Sources/
-    ├── bibliography.md
-    ├── milan-policy-english.md
-    └── milan-policy-italian.md
+    ├── bibliography.md            (exisiting literature, articles, sensor reports)
+    ├── milan-policy-english.md    (policy text translated by Anthropic's Claude)
+    └── milan-policy-italian.md    (original policy text)
 ```
 
 ## How to Run
@@ -42,4 +45,4 @@ Each notebook saves its figures automatically to `Data Analysis/Figures/`.
 
 ## Reports
 
-See `Reports/` for the project abstract and full data analysis report.
+See `Reports/` for the full report, presentation, the full data analysis and policy framing reports, and the pre-proposed abstract.
